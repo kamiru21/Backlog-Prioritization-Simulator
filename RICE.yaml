@@ -1,0 +1,100 @@
+
+**Outputs**
+- Ranked list of backlog items
+- RICE score per item
+- Clear visibility of score drivers
+
+---
+
+### 5.3 MoSCoW Prioritization
+
+The system groups backlog items into:
+- Must
+- Should
+- Could
+- Won’t
+
+**Additional Checks**
+- Flag excessive Must-haves
+- Highlight missing Won’t-haves
+- Encourage realistic scope discussions
+
+---
+
+### 5.4 Comparison View (Key Differentiator)
+
+The system provides a side-by-side comparison of:
+- RICE ranking
+- MoSCoW category
+
+**Example Insights**
+- High-value items deprioritized due to strategic or compliance constraints
+- RICE favors growth opportunities, MoSCoW favors obligations
+- Misalignment between perceived urgency and economic value
+
+---
+
+## 6. Out of Scope (v1)
+
+- Jira or tool integrations
+- Multi-user collaboration
+- Authentication or authorization
+- Advanced analytics or machine learning predictions
+
+---
+
+## 7. Non-Functional Requirements
+
+- Simple, lightweight UI (e.g. Streamlit)
+- Works with small to medium backlogs (10–50 items)
+- Fully explainable logic (no black-box scoring)
+- Fast local execution and easy setup
+
+---
+
+## 8. Success Metrics
+
+### Qualitative
+- Users can clearly explain prioritization decisions
+- Tool supports constructive prioritization discussions
+
+### Quantitative
+- Time to compare frameworks: under 5 minutes
+- No manual recalculation required
+
+---
+
+## 9. Assumptions & Risks
+
+### Assumptions
+- Users have basic Agile / Product knowledge
+- Input values are estimates, not precise measurements
+
+### Risks
+- Scores treated as absolute truth
+- Over-reliance on numbers instead of discussion
+
+**Mitigation**
+- Explicit guidance on when *not* to use each framework
+
+---
+
+## 10. Future Enhancements
+
+- Add WSJF prioritization
+- Stakeholder weighting
+- Capacity constraints per sprint or release
+- Export results as PDF for leadership discussions
+- AI-generated facilitation questions and insights
+
+---
+
+## 11. Why This Project Exists
+
+This project is not about finding the “best” prioritization framework.
+
+It exists to:
+- Make trade-offs visible
+- Encourage better product conversations
+- Support transparent, explainable decision-making
+

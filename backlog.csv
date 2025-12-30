@@ -1,0 +1,11 @@
+id,title,description,reach,impact,confidence,effort,moscow,theme,notes
+US-001,SSO Login for Staff,"Enable SSO login for internal users to reduce password resets and improve access control.",5000,2,80,5,Must,Security,"Compliance-driven; reduces operational risk."
+US-002,Bulk Upload of User Stories,"Allow PMs to upload CSV files of user stories into the backlog tool.",120,1,70,3,Should,Productivity,"Speeds up initial setup and adoption."
+US-003,RICE Score Auto-Calculator,"Automatically calculate RICE scores based on user-provided inputs.",200,2,90,2,Must,Decision Support,"Core feature; calculation must remain transparent and explainable."
+US-004,MoSCoW Grouping View,"Group backlog items into Must, Should, Could, and Won't categories with validation checks.",200,1,85,2,Must,Decision Support,"Flag too many Musts; encourage realistic scoping."
+US-005,Comparison View: RICE vs MoSCoW,"Display a side-by-side comparison of RICE ranking versus MoSCoW categories.",180,2,80,3,Must,Decision Support,"Key differentiator; supports stakeholder conversations."
+US-006,Export Results to PDF,"Export prioritization results and insights into a PDF for leadership sharing.",60,1,60,3,Could,Reporting,"Useful but not required for v1."
+US-007,Capacity Constraint (Sprint/Release),"Limit the number of Must items based on sprint or release capacity.",80,2,65,5,Could,Planning,"Good coaching feature; likely v2."
+US-008,Input Validation & Guardrails,"Validate missing or invalid inputs (e.g., effort=0, confidence outside 0–100).",200,1,90,2,Should,Quality,"Prevents scoring errors and gaming."
+US-009,Stakeholder Weighting,"Apply stakeholder weights (e.g., compliance, customer value) to prioritization.",40,2,50,8,Wont,Governance,"Out of scope for v1 due to complexity."
+US-010,AI Assist: Suggest Inputs,"Use AI to suggest Reach, Impact, and Confidence from story text (advisory only).",50,2,40,8,Wont,AI,"Future enhancement; avoid black-box decisions in v1."
